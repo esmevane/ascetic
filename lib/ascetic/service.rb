@@ -24,7 +24,7 @@ module Ascetic
     end
 
     def get_from_store symbol
-      @store.get symbol
+      store.get symbol
     end
 
   end
